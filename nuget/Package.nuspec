@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>XAFontUtils</id>
+    <version>1.0.0</version>
+    <authors>Mushtaq</authors>
+    <owners>Mushtaq</owners>
+    <licenseUrl>https://github.com/androidmads/FontUtils/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/androidmads/FontUtils</projectUrl>
+    <iconUrl>https://lh3.googleusercontent.com/-8awtMI1rwkE/V2VAjxHDxCI/AAAAAAAAAG4/LVNkDQHM4A4GXlWVxAWV_h9WcGnrZ1qMACEw/w140-h140-p/ic_launcher.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Tiny Font Utility Library</description>
+    <releaseNotes>A Tiny Font Utility Library used to apply custom fonts to Views.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Xamarin Xamarin.Android Font</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.Design" version="25.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\XAFontUtilsLibrary\bin\Release\XAFontUtilsLibrary.dll" target="lib\XAFontUtilsLibrary.dll" />
+  </files>
+</package>
