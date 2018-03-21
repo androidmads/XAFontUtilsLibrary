@@ -17,7 +17,7 @@ Readme for Java and Kotlin can be found here https://github.com/androidmads/Font
 You can download the plugin from Nuget Package Manager using 
 
 ```csharp
-Install-Package XAFontUtils -Version 1.0.0
+Install-Package XAFontUtils -Version 1.0.1
 ```
 
 ## How to use
@@ -29,7 +29,7 @@ using XAFontUtilsLibrary;
 // Applying Custom Font
 Typeface typeface = Typeface.CreateFromAsset(Assets, "custom_font.ttf");
 // Init Library
-FontUtils fontUtils = new FontUtils(ApplicationContext);
+FontUtils fontUtils = new FontUtils();
 // Apply font to Toolbar
 fontUtils.ApplyFontToToolbar(toolbar, typeface);
 // Apply font to NavigationView
