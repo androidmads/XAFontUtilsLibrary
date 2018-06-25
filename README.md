@@ -4,6 +4,8 @@ A Tiny Font Utility Library for Xamarin.Android to apply custom Fonts to
 * NavigationView
 * Menu
 * Submenu
+* RadioGroup
+* TabLayout
 * Other Views like EditText, TextView, etc.
 
 ## Supported Android Languages
@@ -17,7 +19,7 @@ Readme for Java and Kotlin can be found here https://github.com/androidmads/Font
 You can download the plugin from Nuget Package Manager using 
 
 ```csharp
-Install-Package XAFontUtils -Version 1.0.1
+Install-Package XAFontUtils -Version 1.0.2
 ```
 
 ## How to use
@@ -41,6 +43,9 @@ fontUtils.ApplyFontToView(textview, typeface);
 fontUtils.ApplyFontToView(editText, typeface);
 fontUtils.ApplyFontToView(radioButton, typeface);
 fontUtils.ApplyFontToView(checkBox, typeface);
+
+fontUtils.ApplyFontToRadioGroup(radioGroup, typeface);
+fontUtils.ApplyFontToTabLayout(tabLayout, typeface);
 ```
 ## License
 ```
