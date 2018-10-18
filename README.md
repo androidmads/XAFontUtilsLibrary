@@ -22,6 +22,8 @@ You can download the plugin from Nuget Package Manager using
 Install-Package XAFontUtils -Version 1.0.2
 ```
 
+If the nuget is not compatible to your project, then you can download and include the directly from [here](https://github.com/androidmads/XAFontUtilsLibrary/blob/master/XAFontUtilsLibrary.dll)
+
 ## How to use
 ### C#
 ```java
